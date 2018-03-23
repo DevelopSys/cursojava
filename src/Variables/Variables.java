@@ -41,7 +41,7 @@ public class Variables {
     System.out.println("El valor de la variable numero6 es: "+ numero6);
     System.out.println("El valor de la variable semaforo es: "+ semaforo);
     // la siguiente llamada daría error ya que la variable letra no está inicializada
-    System.out.println("El valor de la variable letra es: "+ letra);
+    //System.out.println("El valor de la variable letra es: "+ letra);
     System.out.println("El valor de la variable palabra es: "+ palabra);
     System.out.println("El valor de la variable palabraObjeto es: "+ palabraObjeto);
     System.out.println("El valor de la variable opbjeto es: "+ objeto);
