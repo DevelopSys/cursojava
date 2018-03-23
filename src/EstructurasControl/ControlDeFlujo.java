@@ -21,7 +21,24 @@ public class ControlDeFlujo {
             System.out.println("El examen está aprobado");
         }
     }
+    
+    public void estructuraFor(){
+        for (int i =1;i<6;i++){
+            System.out.println("Recorrido número = " + i);
+            System.out.println("La variable i actualizará su valor...");
+        }        
+    }
 
+    public void estructuraForeach(){
+        int[] elementos = {1,2,3,4,5,6,7,8,9};
+        int suma = 0;
+        for (int temp : elementos) {
+            System.out.println("Se sumará el elemento "+temp);
+            suma = suma + temp;      
+        }
+        System.out.println("La suma de todos los números es "+suma);
+    }
+    
     public void estructuraIfAlternativa() {
         nota = 7;
         if (nota < 5) {
@@ -60,6 +77,6 @@ public class ControlDeFlujo {
 
     public static void main(String[] args) {
         ControlDeFlujo control = new ControlDeFlujo();
-        control.estructuraSwitch();
+        control.estructuraForeach();
     }
 }
