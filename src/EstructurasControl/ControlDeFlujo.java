@@ -74,9 +74,25 @@ public class ControlDeFlujo {
                 break;
         }
     }
+    
+    public void estructuraDo(){
+        nota = 10;
+        do{
+            System.out.println("El examen está aprovbado con un "+nota);
+            nota--;
+        }while(nota>4);
+    }
 
+    public void estructuraWhile(){
+        nota = 0;
+        while(nota<5){
+            System.out.println("El examen está suspenso con un "+nota);
+            nota++;
+        }
+    }
+    
     public static void main(String[] args) {
         ControlDeFlujo control = new ControlDeFlujo();
-        control.estructuraForeach();
+        control.estructuraWhile();
     }
 }
