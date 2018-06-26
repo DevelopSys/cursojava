@@ -36,6 +36,8 @@ public class ColeccionesDinamicas {
         listaAlumnos.indexOf(new Alumno("Alumno1", "Prueba1", 2, 123));
         // elimina el objeto situado en la posición indicada
         listaAlumnos.remove(1);
+        //obtiene el tamaño de la lista
+        listaAlumnos.size();
         
         // validaciones
         if (listaAlumnos.add(new Alumno("AlumnoValidado","ApellidoValidado",3,123))){
