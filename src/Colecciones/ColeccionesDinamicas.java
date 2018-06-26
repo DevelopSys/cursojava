@@ -36,6 +36,13 @@ public class ColeccionesDinamicas {
         listaAlumnos.indexOf(new Alumno("Alumno1", "Prueba1", 2, 123));
         // elimina el objeto situado en la posición indicada
         listaAlumnos.remove(1);
+        
+        // validaciones
+        if (listaAlumnos.add(new Alumno("AlumnoValidado","ApellidoValidado",3,123))){
+            System.out.println("Alumno agregado correctamente");
+        }
+        else
+            System.out.println("Fallo en el proceso de agregar");
 
         // listar una lista completa
         if (!listaAlumnos.isEmpty()) {
