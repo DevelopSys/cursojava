@@ -6,6 +6,7 @@
 package Colecciones;
 
 import java.util.ArrayList;
+import java.util.Hashtable;
 
 /**
  *
@@ -19,6 +20,7 @@ public class ColeccionesDinamicas {
         ArrayList<Integer> listaNumeros = new ArrayList<Integer>();
         ArrayList<Alumno> listaAlumnos = new ArrayList<Alumno>();
 
+               
         // agrega un objeto a la lista teniendo en cuenta la restricción de tipos
         listaAlumnos.add(new Alumno("Alumno", "Prueba", 1, 123));
         // comprueba si el objeto indicado está presente en la lista
@@ -61,7 +63,7 @@ public class ColeccionesDinamicas {
                 }
             }
         }
-
+        
     }
-
+               
 }

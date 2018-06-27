@@ -12,8 +12,8 @@ public class ColeccionesDinamicasHashTable {
     public static void main(String[] args) {
 
         Hashtable listaHash = new Hashtable();
+        // se puede identificar el tipo de la clave asociada y el tipo del objeto
         Hashtable<Integer, Alumno> listaAlumno = new Hashtable<Integer, Alumno>();
-
         // borra todos los elementos de la lista
         listaAlumno.clear();
         // realiza una copia exacta de la lista 
