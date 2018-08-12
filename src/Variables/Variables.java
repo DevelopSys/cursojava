@@ -45,6 +45,7 @@ public class Variables {
     System.out.println("El valor de la variable palabra es: "+ palabra);
     System.out.println("El valor de la variable palabraObjeto es: "+ palabraObjeto);
     System.out.println("El valor de la variable opbjeto es: "+ objeto);
+    //ejemplo de comentario creado con un control de versiones
     }
     
 }
