@@ -1,0 +1,2 @@
+Ejemplo de escritura en fichero
+mediante flujo de control java
